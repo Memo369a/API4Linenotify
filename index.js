@@ -32,10 +32,10 @@ app.post('/msg', (req, res) => {
   }, function(err, httpResponse, body) {
     if (err) {
       console.error(err);
-      res.status(500).send('Error sending message');
+      res.status(500).send({message: "Error sending message"});
     } else {
       console.log(body);
-      res.send('Message sent');
+      res.send({message :'Message sent'});
     }
   });
 });
