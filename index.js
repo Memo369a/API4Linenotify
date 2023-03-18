@@ -5,7 +5,7 @@ const cors = require("cors");
 const request = require('request');
 const app = express();
 
-const accessToken = 'GqOmUoAyxaJX626osTbLCMIwBxc9UjIIDWjRCwYXBb0';
+const accessToken = 'kLDxcfFRTfWJJu4SpQmPInE2R2Rg1yOHL0fDpjp9x2M';
 
 global.__basedir = __dirname;
 var corsOptions = {
